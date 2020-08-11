@@ -21,6 +21,7 @@ body {
 
 .container {
   max-width: 1200px;
+  padding: 20px;
   margin: auto;
 }
 
@@ -76,6 +77,7 @@ body {
   font-size: 3rem;
   letter-spacing: 0.5px;
 }
+
 #header-container span {
   color: var(--accent-color);
 }
@@ -119,6 +121,10 @@ body {
   margin: 0;
 }
 
+#btn-add-media {
+  display: none;
+}
+
 /* Section: Notes */
 #notes {
   margin-top: 2rem;
@@ -129,7 +135,7 @@ body {
 
 .note {
   height: 220px;
-  width: 220px;
+  width: 240px;
   background: white;
   border-radius: 20px;
   padding: 20px;
