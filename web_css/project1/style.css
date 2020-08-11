@@ -32,8 +32,29 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-/* Header */
 
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+  border-radius: 50px;
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #70d8eb;
+  color: white;
+  transition: 0.5s;
+}
+
+.btn-active {
+  background-color: #70d8eb;
+  color: white;
+}
+
+/* Header */
 #header-container {
   margin-top: 2rem;
   display: flex;
@@ -46,7 +67,7 @@ body {
   color: #444;
   font-weight: 700;
   font-size: 3rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 #header-container span {
   color: #70d8eb;
@@ -78,4 +99,15 @@ body {
 #header-profile img {
   height: 3rem;
   width: auto;
+}
+
+/* Section: Tags */
+#tags {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#btn-add {
+  margin: 0;
 }
